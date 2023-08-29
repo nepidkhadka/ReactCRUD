@@ -40,7 +40,7 @@ const Home = () => {
                                     <td className='text-center'>{data.company}</td>
                                     <td className='text-center'>{data.email}</td>
                                     <td>
-                                        <button className='btn btn-sm btn-warning mx-2 text-center' >Read</button>
+                                        <Link to={`/read/${data.id}`} className='btn btn-sm btn-warning mx-2 text-center' >Read</Link>
                                         <button className='btn btn-sm btn-primary mx-2 text-center' >Edit</button>
                                         <button className='btn btn-sm btn-danger mx-2 text-center' >Delete</button>
                                     </td>
