@@ -31,7 +31,7 @@ const Read = () => {
             <div className="mb-4">
               <h4>Email:{mydata.email}</h4>
             </div>
-            <Link className='btn btn-success' to={"/update"+mydata.id} >Update</Link>
+            <Link className='btn btn-success' to={"/update/"+mydata.id}>Update</Link>
             <Link className='btn btn-warning ms-3' to="/" >Go Back</Link>
       </div>
       
